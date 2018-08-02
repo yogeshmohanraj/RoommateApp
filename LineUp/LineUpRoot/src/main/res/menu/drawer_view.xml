@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_bottom">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24px"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_baseline_event_available_24px"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_map"
+            android:icon="@drawable/ic_baseline_my_location_24px"
+            android:title="Map" />
+    </group>
+    <group android:checkableBehavior="single"
+        android:id="@+id/menu_top">
+        <item
+            android:id="@+id/nav_roommates"
+            android:icon="@drawable/ic_baseline_group_add_24px"
+            android:title="Add Roommates" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_settings_24px"
+            android:title="Log Out" />
+    </group>
+</menu>
